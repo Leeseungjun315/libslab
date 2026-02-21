@@ -106,7 +106,7 @@ make
 
 실행:
 
-./build_example \n
+./build_example
 ./build_test_suite
 ./build_bench 2000000
 
