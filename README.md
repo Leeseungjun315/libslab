@@ -106,7 +106,7 @@ make
 
 실행:
 
-./build_example
+./build_example \n
 ./build_test_suite
 ./build_bench 2000000
 
@@ -119,26 +119,6 @@ Double Free Test:
 
 Overrun Test:
 ./build_test_overrun
-
----
-
-#  Project Structure
-
-libslab/
-├─ include/
-│  └─ slab.h
-├─ src/
-│  ├─ slab.c
-│  └─ slab_internal.h
-├─ tests/
-│  ├─ test_suite.c
-│  ├─ test_doublefree.c
-│  ├─ test_overrun.c
-│  └─ bench.c
-├─ examples/
-│  └─ example.c
-├─ Makefile
-└─ README.md
 
 ---
 
